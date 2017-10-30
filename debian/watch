@@ -1,0 +1,4 @@
+version=4
+opts="filenamemangle=s%(?:.*?)?v?(\d[\d.]*)\.tar\.gz%python-twilio-$1.tar.gz%" \
+   https://github.com/twilio/twilio-python/tags \
+   (?:.*?/)?v?(\d[\d.]*)\.tar\.gz debian uupdate
