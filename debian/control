@@ -1,9 +1,31 @@
 Source: python-twilio
 Section: python
 Priority: optional
-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org> 
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
 Uploaders: Sophie Brun <sophie@freexian.com>
-Build-Depends: debhelper (>= 10), dh-python, python-all, python-setuptools, python3-all, python3-setuptools, python-cryptography, python-jwt, python-mock, python-nose, python-requests, python-six, python-tz, python3-cryptography, python3-jwt, python3-mock, python3-nose, python-pytest, python3-requests, python3-six, python3-tz, python3-pytest
+Build-Depends:
+ debhelper (>= 10),
+ dh-python,
+ python-all,
+ python-cryptography,
+ python-jwt,
+ python-mock,
+ python-nose,
+ python-pytest,
+ python-requests,
+ python-setuptools,
+ python-six,
+ python-tz,
+ python3-all,
+ python3-cryptography,
+ python3-jwt,
+ python3-mock,
+ python3-nose,
+ python3-pytest,
+ python3-requests,
+ python3-setuptools,
+ python3-six,
+ python3-tz
 Standards-Version: 4.1.1
 Homepage: https://github.com/twilio/twilio-python
 Vcs-Git: https://anonscm.debian.org/git/python-modules/packages/python-twilio.git
@@ -12,7 +34,7 @@ Testsuite: autopkgtest-pkg-python
 
 Package: python-twilio
 Architecture: all
-Depends: ${python:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${python:Depends}
 Description: Twilio API client and TwiML generator (Python 2)
  This package contains a Twilio helper library. The Twilio REST SDK simplifies
  the process of making calls using the Twilio REST API.  The Twilio REST API
@@ -22,7 +44,7 @@ Description: Twilio API client and TwiML generator (Python 2)
 
 Package: python3-twilio
 Architecture: all
-Depends: ${python3:Depends}, ${misc:Depends}
+Depends: ${misc:Depends}, ${python3:Depends}
 Description: Twilio API client and TwiML generator (Python 3)
  This package contains a Twilio helper library. The Twilio REST SDK simplifies
  the process of making calls using the Twilio REST API.  The Twilio REST API
