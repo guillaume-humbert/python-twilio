@@ -37,7 +37,7 @@ Architecture: all
 Depends: ${misc:Depends}, ${python:Depends}
 Description: Twilio API client and TwiML generator (Python 2)
  This package contains a Twilio helper library. The Twilio REST SDK simplifies
- the process of making calls using the Twilio REST API.  The Twilio REST API
+ the process of making calls using the Twilio REST API. The Twilio REST API
  lets to you initiate outgoing calls, list previous calls, and much more.
  .
  This package installs the library for Python 2.
@@ -47,7 +47,7 @@ Architecture: all
 Depends: ${misc:Depends}, ${python3:Depends}
 Description: Twilio API client and TwiML generator (Python 3)
  This package contains a Twilio helper library. The Twilio REST SDK simplifies
- the process of making calls using the Twilio REST API.  The Twilio REST API
+ the process of making calls using the Twilio REST API. The Twilio REST API
  lets to you initiate outgoing calls, list previous calls, and much more.
  .
  This package installs the library for Python 3.
