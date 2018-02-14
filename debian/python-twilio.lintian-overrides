@@ -1,3 +1,0 @@
-# we package python2 module as it's for elastalert using
-# Python 2.7 only
-python-twilio: new-package-should-not-package-python2-module
