@@ -34,7 +34,7 @@ Testsuite: autopkgtest-pkg-python
 
 Package: python-twilio
 Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}
+Depends: ${misc:Depends}, ${python:Depends}, python-requests
 Description: Twilio API client and TwiML generator (Python 2)
  This package contains a Twilio helper library. The Twilio REST SDK simplifies
  the process of making calls using the Twilio REST API. The Twilio REST API
@@ -44,7 +44,7 @@ Description: Twilio API client and TwiML generator (Python 2)
 
 Package: python3-twilio
 Architecture: all
-Depends: ${misc:Depends}, ${python3:Depends}
+Depends: ${misc:Depends}, ${python3:Depends}, python3-requests
 Description: Twilio API client and TwiML generator (Python 3)
  This package contains a Twilio helper library. The Twilio REST SDK simplifies
  the process of making calls using the Twilio REST API. The Twilio REST API
