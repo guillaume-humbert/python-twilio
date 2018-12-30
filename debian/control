@@ -2,7 +2,7 @@ Source: python-twilio
 Section: python
 Priority: optional
 Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
-Uploaders: Sophie Brun <sophie@freexian.com>
+Uploaders: Sophie Brun <sophie@freexian.com>, Sebastien Delafond <seb@debian.org>
 Build-Depends:
  debhelper (>= 10),
  dh-python,
