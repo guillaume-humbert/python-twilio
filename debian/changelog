@@ -1,3 +1,9 @@
+python-twilio (6.8.2-3) UNRELEASED; urgency=medium
+
+  * Use debhelper-compat instead of debian/compat.
+
+ -- Ondřej Nový <onovy@debian.org>  Fri, 19 Jul 2019 23:57:12 +0200
+
 python-twilio (6.8.2-2) unstable; urgency=medium
 
   [ Ondřej Nový ]

@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
 Uploaders: Sophie Brun <sophie@freexian.com>, Sebastien Delafond <seb@debian.org>
 Build-Depends:
- debhelper (>= 10),
+ debhelper-compat (= 10),
  dh-python,
  python-all,
  python-cryptography,
