@@ -1,9 +1,10 @@
-python-twilio (6.8.2-3) UNRELEASED; urgency=medium
+python-twilio (6.8.2-3) unstable; urgency=medium
 
+  * Team upload.
   * Use debhelper-compat instead of debian/compat.
   * Drop Python 2 support.
 
- -- Ondřej Nový <onovy@debian.org>  Fri, 19 Jul 2019 23:57:12 +0200
+ -- Ondřej Nový <onovy@debian.org>  Tue, 27 Aug 2019 08:03:44 +0200
 
 python-twilio (6.8.2-2) unstable; urgency=medium
 
