@@ -6,16 +6,6 @@ Uploaders: Sophie Brun <sophie@freexian.com>, Sebastien Delafond <seb@debian.org
 Build-Depends:
  debhelper-compat (= 10),
  dh-python,
- python-all,
- python-cryptography,
- python-jwt,
- python-mock,
- python-nose,
- python-pytest,
- python-requests,
- python-setuptools,
- python-six,
- python-tz,
  python3-all,
  python3-cryptography,
  python3-jwt,
@@ -31,16 +21,6 @@ Homepage: https://github.com/twilio/twilio-python
 Vcs-Git: https://salsa.debian.org/python-team/modules/python-twilio.git
 Vcs-Browser: https://salsa.debian.org/python-team/modules/python-twilio
 Testsuite: autopkgtest-pkg-python
-
-Package: python-twilio
-Architecture: all
-Depends: ${misc:Depends}, ${python:Depends}, python-requests
-Description: Twilio API client and TwiML generator (Python 2)
- This package contains a Twilio helper library. The Twilio REST SDK simplifies
- the process of making calls using the Twilio REST API. The Twilio REST API
- lets to you initiate outgoing calls, list previous calls, and much more.
- .
- This package installs the library for Python 2.
 
 Package: python3-twilio
 Architecture: all
