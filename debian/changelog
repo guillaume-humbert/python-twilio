@@ -1,3 +1,9 @@
+python-twilio (6.8.2-4) UNRELEASED; urgency=medium
+
+  * Wrap long lines in changelog entries: 6.8.2-2.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Thu, 26 Mar 2020 23:00:38 +0000
+
 python-twilio (6.8.2-3) unstable; urgency=medium
 
   * Team upload.
@@ -12,7 +18,9 @@ python-twilio (6.8.2-2) unstable; urgency=medium
   * d/control: Set Vcs-* to salsa.debian.org
 
   [ Chris Lamb ]
-  * Remove new-package-should-not-package-python2-module override as it will be marked as 'unused' in the next release (and should have been mentioned in the changelog).
+  * Remove new-package-should-not-package-python2-module override as it will be
+    marked as 'unused' in the next release (and should have been mentioned in
+    the changelog).
 
   [ Sébastien Delafond ]
   * Add myself to Uploaders
