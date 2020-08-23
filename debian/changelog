@@ -1,11 +1,15 @@
-python-twilio (6.8.2-4) UNRELEASED; urgency=medium
+python-twilio (6.45.0-1) eoan; urgency=medium
 
+  [ Debian Janitor ]
   * Wrap long lines in changelog entries: 6.8.2-2.
   * Bump debhelper from old 10 to 12.
   * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
     Repository-Browse.
 
- -- Debian Janitor <janitor@jelmer.uk>  Thu, 26 Mar 2020 23:00:38 +0000
+  [ Guillaume J Humbert ]
+  * New upstream version 6.45.0
+
+ -- Guillaume J Humbert <guillaume.j.humbert@pm.me>  Sun, 23 Aug 2020 16:42:25 +0800
 
 python-twilio (6.8.2-3) unstable; urgency=medium
 
